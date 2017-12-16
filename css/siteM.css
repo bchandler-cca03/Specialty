@@ -1,0 +1,62 @@
+body {
+    /* background: navy; */
+    background-image: url("/images/MarvinCaseyKeyBayLivingRoom.jpg");
+    /* stretches the background image to cover the viewport */
+    background-size: cover;
+}
+
+#firstRow {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#firstRow a, #secondRow li a {
+    color: white;
+}
+
+nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.topmenu{
+    font: white;
+} 
+#firstRow a:hover{
+    
+}
+
+#secondRow {
+    background-color: rgb(154, 169, 184);
+    display: flex;
+    align-items: right;
+}
+
+#secondRow {
+    /* font: black; */
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: flex-end;
+}
+
+#secondRow ul li a {
+    font: black;
+}
+
+#bigPic {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+blockquote{
+    width: 100%;
+    background: lightslategray;
+}
+main div {
+    margin-top: 1.5rem;
+}
+#side {
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
