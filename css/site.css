@@ -1,0 +1,12 @@
+/* select iconic picture from collection to establish the color-scheme for the website. */
+
+body {
+    background: lightgoldenrodyellow;
+}
+
+#ctrl {
+    margin: 1 rem;
+    padding: 1 rem;
+    border: 1px solid red;
+    text-align: center;
+}
