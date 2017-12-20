@@ -6,6 +6,7 @@ body {
 .jumbotron {
     color: aqua;
     background: #2c3e50;
+    margin-top: 20px;
 }
 
 /* If I declare the same class and toggle it with important, I override the bootstrap class because
@@ -22,6 +23,15 @@ I am last!!! */
     color: white;
 }
 
+.row .card {
+    margin: 1rem;
+    padding: 1rem;
+}
 
+#bandsaw {
+    height: 3rem;
+    width: 100%;
+    color: black;
+}
 /* TODO:  On Inspire.html, there is a slight streak of bg-primary vertically on the left.
    be sure to remove. */
