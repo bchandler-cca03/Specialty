@@ -1,10 +1,21 @@
 body {
-    /* background: navy; */
-    background-image: url("/images/MarvinCaseyKeyBayLivingRoom.jpg");
+    /* background-image: url("/images/MarvinCaseyKeyBayLivingRoom.jpg"); */
     /* stretches the background image to cover the viewport */
-    background-size: cover;
+    /* background-size: cover; */
 }
 
+#ctrl {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid red;
+    text-align: center;
+    height:  10rem;
+}
+
+#ctrl h1 {
+    height: 10rem;
+ 
+}
 #firstRow {
     background-color: black;
     display: flex;
@@ -59,4 +70,8 @@ main div {
 #side {
     margin-top: 10rem;
     margin-left: 1rem;
+}
+
+#ctrlBetto {
+    /* width: 100% \9; */
 }

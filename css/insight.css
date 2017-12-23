@@ -26,6 +26,7 @@ I am last!!! */
 .row .card {
     margin: 1rem;
     padding: 1rem;
+    
 }
 
 #bandsaw {
@@ -33,5 +34,9 @@ I am last!!! */
     width: 100%;
     color: black;
 }
+
+#cardrow {
+    margin: 1rem;
+} 
 /* TODO:  On Inspire.html, there is a slight streak of bg-primary vertically on the left.
    be sure to remove. */

@@ -1,7 +1,10 @@
 /* select iconic picture from collection to establish the color-scheme for the website. */
 
 body {
-    background: lightgoldenrodyellow;
+
+    /* background: lightgoldenrodyellow; */
+    background-image: url("/MarvinCaseyKeyBayLivingRoom.jpg");
+    
 }
 
 #ctrl {
